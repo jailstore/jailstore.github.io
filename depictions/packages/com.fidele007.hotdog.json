@@ -1,0 +1,158 @@
+{
+	"name": "HotDog",
+	"package": "com.fidele007.hotdog",
+	"author": "fidele007",
+	"version": "3.3.3-1085 (2017/03/07)",
+	"description": "<div>A cool tweak to customize your iOS experience.</div>",
+	"changelog": {
+		"3.1-beta-5": [
+			"<strong>NEW:</strong> Added custom color option for SlideToUnlock text",
+			"<strong>NEW:</strong> Added position option for Date and Time",
+			"Seconds now work on status bar clock (not on Lock Screen clock)",
+			"Rewrote time format instruction",
+			"Added Respring confirmation alert",
+			"Resolved conflict with StatusVolX"
+		],
+		"3.2-6": [
+			"Completely revamped HotDog settings",
+			"Added X and Y positions for lock screen Date and Time separately",
+			"Added X and Y positions for \"slide to unlock\" text",
+			"Added customizable secondary string for \"slide to unlock\" text on failed Touch ID authentication",
+			"Added French localization",
+			"Fixed the bug where \"slide to unlock\" text revert color back to default on failed Touch ID authentication",
+			"Fixed the bug where seconds stop working after returning from passcode view on some devices"
+		],
+		"3.2-100": [
+			"Changing time font size now won't change the font's weight",
+			"You can know use multiple lines for lock screen date string by using \"\\n\"  (read Date|Time format instructions for details)",
+			"Added option to change notifications view position on lock screen",
+			"Added option to always show date label immediately"
+		],
+		"3.2-108": [
+			"Fixed custom time font size crash on iOS 8 and iOS 7 devices",
+			"Fixed multiline date label not working on iOS 8 and lower devices",
+			"Disabled autocorrect in format text fields in HotDog settings"
+		],
+		"3.2-194": [
+			"Fixed notification interaction bug on lock screen when notification's position is changed",
+			"Notifications view will be reset to default position if Media Controls view is present",
+			"Added option to change X and Y coordinates of lock screen charging text and timer",
+			"Added option to hide NC and CC grabbers",
+			"Added option to show status bar time on lock screen"
+		],
+		"3.2-606": [
+			"<strong>NEW: </strong>Added option to align lock screen Date label (<strong>experimental</strong>)",
+			"Added compatibility with <strong>HideMeX</strong>",
+			"Fixed lock screen date and time position not working on white background",
+			"Improved settings, hopefully to fix crash for some users",
+			"<strong>KNOWN BUG: </strong>If Date label alignment is enabled, the Date position is a bit off when SpringBoard first starts, but it should correct itself after unlocking and relocking your device."
+		],
+		"3.2-611": [
+			"Added option to hide lock screen Battery Charging View in Others panel"
+		],
+		"3.2-1053": [
+			"Added option to hide lock screen notifications, suppress screen wake when receiving notifications and suppress notification sounds",
+			"Added options for moving media controls view, album art and volume slider (in Others)",
+			"Added options for lock screen status bar and home screen status bar",
+			"Added option for multiple-lined passcode view text",
+			"Added option to hide Camera grabber and disable Camera",
+			"Added option to disable lock screen blur"
+		],
+		"3.3.1-326 (February 6th, 2016)": [
+			"Added option to show lock screen Date|Time with media controls",
+			"Added back bold time as an option",
+			"Added two-color option for lock screen Date|Time",
+			"Added a different option for notification position with media controls",
+			"Added a separate <strong>Media</strong> section with several additional options",
+			"Added back lock screen idle timer duration in <strong>Others</strong> section",
+			"Fixed a bug where hiding lock screen camera grabber also disables its functionality",
+			"Fixed interaction bug with lock screen notifications",
+			"Improved settings"
+		],
+		"3.3.2-90 (2016/10/29)": [
+			"Fix lock screen clock position not moving when using seconds",
+			"Fix album art issue with ColorFlow",
+			"Fix various status bar bugs",
+			"Fix album art not resizing correctly",
+			"Add icon for each section in preference"
+		],
+		"3.3.2-92 (2016/10/29)": [
+			"Mitigate status bar conflict with CallBar. However, you won't be able to properly style your status bar unless you disable CallBarStatusBar.dylib."
+		],
+		"3.3.2-94 (2016/12/24)": [
+			"Add AM/PM format option for time label",
+			"Add option to change slide to unlock text's font size",
+			"Add alignment option for lock screen time label",
+			"Add different options for hiding slide to unlock text and chevron",
+			"Fix font size for aligned date and time labels",
+			"Fix double status bar conflict with Roundification tweak",
+			"Improve status bar coloring",
+			"Better preference synchronization"
+		],
+		"3.3.3-1 (2017/01/26)": [
+			"Initial support for iOS 10: Lock screen date & time and slide to unlock do not currently work due to API change from iOS 9 to iOS 10"
+		],
+		"3.3.3-25 (2017/01/27)": [
+			"Really fix the crashing bug (all color options are disabled due to <b>libcolorpicker</b> not yet updated for iOS 10)",
+			"Partial update for Slide to Unlock: support changing \"Press Home to unlock\""
+		],
+		"3.3.3-99 (2017/01/30)": [
+			"Update Status bar options for iOS 10",
+			"Update Slide to Unlock/Press Home to unlock options for iOS 10",
+			"Update lock screen idle timer for iOS 10",
+			"<strong>NOTE:</strong> Lock screen date/time options are still disabled"
+		],
+		"3.3.3-275 (2017/02/10)":[
+			"<strong>NEW:</strong> Lock screen Date/Time should now work on iOS 10!",
+			"Improve status bar hiding",
+			"Status bar <i>hiding</i> and <i>coloring</i> options are now bundled into a separate dylib named HotDogStatusBarUI.dylib, meaning you can disable it if it turns out to be too buggy. The results are, for now, inconsistent for different users, especially the coloring thing. (I'll come back for you one day, status bar! <i>One day!</i>)",
+			"Lock screen idle timer duration should now work properly.",
+			"<span style=\"color:#602abf\">Press Home to unlock</span>'s immediate popup and hiding should work better now.",
+			"Updated <strong><span style=\"color:#bf2a2a\">c</span><span style=\"color:#362abf\">o</span><span style=\"color:#bf2a86\">l</span><span style=\"color:#2a83bf\">o</span><span style=\"color:#2abf51\">r</span></strong> pickers!",
+			"<span style=\"color:#f4425f;font-weight:bold;\">Still not working:</span><ul style=\"list-style-type:square\"><li>Call view</li><li>Media</li><li>Notifications except <span style=\"color:#2a6abf;\">No Notifications</span> custom text</li><li>Others except Lock screen idle timer duration</li></ul>"
+		],
+		"3.3.3-276 (2017/02/10)":[
+			"Fix default position bug for LS Date/Time"
+		],
+		"3.3.3-281 (2017/02/10)":[
+			"Fix crashing album art bug on iOS 9 and down"
+		],
+		"3.3.3-487 (2017/02/26)":[
+			"Support for <b>Notifications</b> section",
+			"Support for <b>Media</b> section",
+			"Support for <b>Call View</b> section",
+			"Fix default lock screen idle time",
+			"Fix date/time label appearing with media controls view when they are not supposed to",
+			"Fix crashing bug on iOS 7 due to deprecated methods in Passcode view"
+		],
+		"3.3.3-684 (2017/03/02)": [
+			"Full support for <b>Others</b> section",
+			"Add option to hide LS blur (Others)",
+			"Add option to hide LS page indicator (Others)",
+			"Alpha values for Date & Time view are manually managed now, so <i>expect</i> more bugs ;p",
+			"Attempt to fix album art disappearing after dismissing notifications. (seriously, fuck Apple for thinking it's a good idea to start hiding shit when they don't even directly overlap each other.)",
+			"Fix date view flickering bug on LS turn on with media controls",
+			"Fix date view disappearing bug when media controls are automatically dismissed",
+			"Fix bug where charging text overlaps with the date label when it's not supposed to",
+			"Fix date view showing when in search view in Today View",
+			"Fix \"Press home to unlock\" color incompatibility with ColorFlow 3"
+		],
+		"3.3.3-1085 (2017/03/07)": [
+			"<span style=\"color:#f4425f;font-weight:bold;\">WARNING:</span> All preferences in Media section will be reset. Back them up before updating.",
+			"Fix date view moving back to its default position due to ColorFlow 3",
+			"Another attempt at fixing the disappearing album art bug (fingers crossed)",
+			"Add an option to hide date/time view (for those who hold a grudge against the native date/time labels)",
+			"Add more position options for lock screen media controls",
+			"Add options to make lock screen volume slider knob smaller (you can even make your own knob images by replacing the ones in /Library/Application Support/HotDog)",
+			"Add Hebrew localization (thanks to /u/Aransh)",
+			"Add lock button in Settings to easily go back to lock screen",
+			"Add option to hide lock icon on lock screen status bar",
+			"Add option to hide status bar time while media is playing",
+			"Improve \"Press Home to Unlock\" showing immediately"
+		]
+	},
+	"screenshots": {},
+	"links": {
+		"<img class=\"icon\" src=\"statistics.png\"><span>Download Statistics</span>": "http://apt.thebigboss.org/getfilehistory2.php?file=HotDog"
+	}
+}

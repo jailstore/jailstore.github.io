@@ -1,0 +1,51 @@
+{
+	"name": "Swipe for Activator",
+	"package": "com.fidele007.swipedownforactivator",
+	"author": "fidele007",
+	"version": "0.2.1 (2017-02-09)",
+	"description": "<div>Trigger Activator actions through one of the following screen gestures:</div><ul><li>Swipe Down on Home Screen (native pull-down spotlight gesture)</li><li>Swipe Down on Lock Screen</li><li>Swipe Up on Home Screen</li><li>Swipe Up on Lock Screen</li></ul><div>There's an option to disable pull-down spotlight in Settings.</div>",
+	"changelog": {
+		"0.0.1-43": [
+			"Initial Release"
+		],
+		"0.0.1-56": [
+			"Improved lock screen swipe gestures"
+		],
+		"0.0.1-121 (January 27th, 2015)": [
+			"Improved home screen swipe gestures",
+			"Added Swipe Up gesture on home screen",
+			"Added option to disable pull-down spotlight"
+		],
+		"0.0.1-123 (January 27th, 2015)": [
+			"Changed settings icon",
+			"Removed NSLog"
+		],
+		"0.0.1-200 (January 31st, 2015)": [
+			"Fixed crash on iPhone 6s devices"
+		],
+		"0.0.1-201 (February 1st, 2015)":[
+			"Disabled home screen gestures on icon editing mode to fix bug where icons can't be moved"
+		],
+		"0.0.1-216 (February 26th, 2015)":[
+			"Better compatibility in Activator settings",
+			"Improved lock screen gesture recognizers"
+		],
+    "0.1-16+debug (August 2nd, 2016)":[
+        "Code optimization"
+    ],
+    "0.1-17+debug (August 2nd, 2016)":[
+        "Fix respring bug in preferences"
+    ],
+    "0.1-22+debug (2016-09-18)": [
+    	"Disable home screen swipe gestures on dock view. This is implemented to resolve conflict with <b>UnderCut</b> tweak which uses the swipe up gesture on the dock view."
+    ],
+    "0.2 (2017-02-09)": [
+    	"Update for iOS 10"
+    ],
+    "0.2.1 (2017-02-09)": [
+      "Fix vibration bug on homescreen swipe up"
+    ]
+	},
+	"screenshots": {},
+	"links": {}
+}
