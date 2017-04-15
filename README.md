@@ -1,2 +1,1 @@
-Just a site
-go: fuad00.github.io
+Just a site: fuad00.github.io
